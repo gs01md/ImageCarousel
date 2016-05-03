@@ -4,56 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/GuidePagesIOS.h</key>
+		<key>Headers/ImageCarouselMainHead.h</key>
 		<data>
-		WyRskxj/XsbdzW2INVWl1c0hWlg=
+		xCtUzJLv8FoTJ4w93RVRtdfmBOE=
 		</data>
-		<key>Headers/ImageCarousel.h</key>
+		<key>Headers/ImageCarouselWood.h</key>
 		<data>
-		xZKumvCeHLBdUp4Q7TDYcSxHNjs=
+		TYXVX12PCMebQnmahFvNNHS551c=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		PWPPAtZgU89LtM50C+9oaHhWG1o=
 		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		eqoTdmtlgAXJalapEuydUWDAtV8=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/GuidePagesIOS.h</key>
+		<key>Headers/ImageCarouselMainHead.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WyRskxj/XsbdzW2INVWl1c0hWlg=
+			xCtUzJLv8FoTJ4w93RVRtdfmBOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			4f9Pn6vHiOHnb6CVCXtIVqVjQYppalPqihU1pE0biJE=
+			S7mYdYjcMy7JkINFdXttht0pkwocbcOoc+qq4eTlZUY=
 			</data>
 		</dict>
-		<key>Headers/ImageCarousel.h</key>
+		<key>Headers/ImageCarouselWood.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xZKumvCeHLBdUp4Q7TDYcSxHNjs=
+			TYXVX12PCMebQnmahFvNNHS551c=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ldq3vR5JemROeILt+3qI8/LZaZSp0u9HC0Ubl3pZIsw=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eqoTdmtlgAXJalapEuydUWDAtV8=
-			</data>
-			<key>hash2</key>
-			<data>
-			wmMno45QpZAYIjScebuUxz9+Z3mn4e8GTjA5+hCyYG0=
+			dbQVh20U6w6boCEIYKH0kLgTLOeInPuumd9RBBwqkJY=
 			</data>
 		</dict>
 	</dict>

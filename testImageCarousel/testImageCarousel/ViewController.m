@@ -7,10 +7,10 @@
 //
 
 #import "ViewController.h"
-#import <ImageCarousel/GuidePagesIOS.h>
+#import <ImageCarousel/ImageCarouselMainHead.h>
 
 @interface ViewController ()<GastureScrollViewDelegate>{
-    GuidePagesIOS *view;
+    ImageCarouselWood *view;
 }
 
 @end
@@ -24,12 +24,12 @@
     UIImageView *imageView2=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"2.png"]];
     UIImageView *imageView3=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"3.png"]];
     
-    NSMutableArray *viewsArray=[[NSMutableArray alloc]initWithObjects:imageView1,imageView2,imageView3,nil];
+    NSMutableArray *viewsArray=[[NSMutableArray alloc]initWithObjects:imageView1,nil];
     
-    view=[[GuidePagesIOS alloc]initWithFrame:self.view.bounds views:viewsArray isPageControlHidden:NO isLoopPlay:NO];
+    view=[[ImageCarouselWood alloc]initWithFrame:self.view.bounds views:viewsArray isPageControlHidden:NO isLoopPlay:NO];
     
-    view.loopDelayTime=3.0;
-    view.delegate=self;
+    view.m_loopDelayTime = 3.0;
+    view.delegate = self;
     
     [self.view addSubview:view];
 }
@@ -42,7 +42,7 @@
 }
 
 //点击事件
-- (void)didClickPage:(GuidePagesIOS *)view atIndex:(NSInteger)index
+- (void)didClickPage:(ImageCarouselWood *)view atIndex:(NSInteger)index
 {
     //do something
 }

@@ -1,6 +1,0 @@
-framework module ImageCarousel {
-  umbrella header "ImageCarousel.h"
-
-  export *
-  module * { export * }
-}

@@ -21,17 +21,17 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		F4959DB41CD83FC50037B817 /* ImageCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = F4959DB31CD83FC50037B817 /* ImageCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4959DC21CD842520037B817 /* GuidePagesIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F4959DC01CD842520037B817 /* GuidePagesIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4959DC31CD842520037B817 /* GuidePagesIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = F4959DC11CD842520037B817 /* GuidePagesIOS.m */; };
+		F4959DB41CD83FC50037B817 /* ImageCarouselMainHead.h in Headers */ = {isa = PBXBuildFile; fileRef = F4959DB31CD83FC50037B817 /* ImageCarouselMainHead.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4959DC21CD842520037B817 /* ImageCarouselWood.h in Headers */ = {isa = PBXBuildFile; fileRef = F4959DC01CD842520037B817 /* ImageCarouselWood.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4959DC31CD842520037B817 /* ImageCarouselWood.m in Sources */ = {isa = PBXBuildFile; fileRef = F4959DC11CD842520037B817 /* ImageCarouselWood.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4959DB01CD83FC50037B817 /* ImageCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4959DB31CD83FC50037B817 /* ImageCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCarousel.h; sourceTree = "<group>"; };
+		F4959DB31CD83FC50037B817 /* ImageCarouselMainHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCarouselMainHead.h; sourceTree = "<group>"; };
 		F4959DB51CD83FC50037B817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4959DC01CD842520037B817 /* GuidePagesIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePagesIOS.h; sourceTree = "<group>"; };
-		F4959DC11CD842520037B817 /* GuidePagesIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePagesIOS.m; sourceTree = "<group>"; };
+		F4959DC01CD842520037B817 /* ImageCarouselWood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCarouselWood.h; sourceTree = "<group>"; };
+		F4959DC11CD842520037B817 /* ImageCarouselWood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCarouselWood.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +64,9 @@
 		F4959DB21CD83FC50037B817 /* ImageCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				F4959DC01CD842520037B817 /* GuidePagesIOS.h */,
-				F4959DC11CD842520037B817 /* GuidePagesIOS.m */,
-				F4959DB31CD83FC50037B817 /* ImageCarousel.h */,
+				F4959DC01CD842520037B817 /* ImageCarouselWood.h */,
+				F4959DC11CD842520037B817 /* ImageCarouselWood.m */,
+				F4959DB31CD83FC50037B817 /* ImageCarouselMainHead.h */,
 				F4959DB51CD83FC50037B817 /* Info.plist */,
 			);
 			path = ImageCarousel;
@@ -79,8 +79,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4959DC21CD842520037B817 /* GuidePagesIOS.h in Headers */,
-				F4959DB41CD83FC50037B817 /* ImageCarousel.h in Headers */,
+				F4959DC21CD842520037B817 /* ImageCarouselWood.h in Headers */,
+				F4959DB41CD83FC50037B817 /* ImageCarouselMainHead.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4959DC31CD842520037B817 /* GuidePagesIOS.m in Sources */,
+				F4959DC31CD842520037B817 /* ImageCarouselWood.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +335,7 @@
 				F4959DBA1CD83FC50037B817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4959DBC1CD841F20037B817 /* Build configuration list for PBXAggregateTarget "Combine" */ = {
 			isa = XCConfigurationList;
@@ -343,6 +344,7 @@
 				F4959DBE1CD841F20037B817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
